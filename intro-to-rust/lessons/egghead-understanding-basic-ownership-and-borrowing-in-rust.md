@@ -1,6 +1,5 @@
 Instructor: [00:00] Let's have a look of this function `say_first_name()`. say_first_name() takes a first_name of type string and then outputs the name using println! And the placeholder syntax. We then call this function in our main function by passing it a variable `first_name`, which has the value "Pascal." 
 
-### main.rs
 ```rs
 fn main() {
   let first_name = "Pascal".to_string();
@@ -15,7 +14,6 @@ fn say_first_nam(first: String) {
 
 If I run this function, we'll see that it will properly output my name.
 
-### Terminal
 ```bash
 $ cargo run
 Pascal
@@ -23,7 +21,6 @@ Pascal
 
 [00:26] However, if we now go ahead and call this function again, 
 
-### main.rs
 ```rs
 fn main() {
   let first_name = "Pascal".to_string();
@@ -75,7 +72,6 @@ fn say_first_nam(first: &String) {
 
 save the file, run the program and we'll see everything runs as expected.
 
-### Terminal
 ```bash
 $ cargo run
 Pascal

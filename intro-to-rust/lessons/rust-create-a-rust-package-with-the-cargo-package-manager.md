@@ -1,7 +1,6 @@
 Instructor: [00:00] The most convenient way to create a new Rust project is by using the Cargo package manager and its new commands, `cargo new`. The new command takes the name of a project. 
 
-### Terminal
-```cargo
+```bash
 $ cargo new say-my-name
 ```
 

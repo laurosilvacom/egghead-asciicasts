@@ -1,6 +1,5 @@
 Instructor: [00:00] We can compile a Rust project using Cargo and its built commands, `cargo build`. This will create a target directory in which we can find the executable of our program, `l target/debug`. From here, we can again run our program on the command line, `./target/debug/say-my-name`.
 
-### Terminal
 ```cargo
 $ cargo build
 $ l target/debug
@@ -11,9 +10,6 @@ $ ./target/debug/say-my-name
 
 ```cargo
 $ cargo run
-    Compiling...
-      Finished ...
-        Running ...
 Hello, world!
 ```
 

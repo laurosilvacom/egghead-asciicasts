@@ -1,6 +1,5 @@
 Instructor: [00:01] Let's say we want to create a function that takes a first name and a last name and prints it to the screen. To define a function, we use the `fn` keyword followed by a name, and then we define the parameters, in our case it's the first_name of type string and the last_name of type string as well.
 
-### main.rs
 ```rs
 fn main() {
   let first = "Pascal".to_string();
@@ -33,7 +32,6 @@ fn main() {
 
 Save the file and run the program. We'll see it outputs "Pascal Precht."
 
-### Terminal
 ```bash
 $ cargo run
 Pascal Precht

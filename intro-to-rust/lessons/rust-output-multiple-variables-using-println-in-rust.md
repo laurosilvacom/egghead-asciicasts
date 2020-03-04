@@ -1,6 +1,5 @@
 Instructor: [00:00] To output multiple variables, println! supports multiple placeholders as well. If we have variable `name` and `another_name`, we can use println!, placeholder, some string and another placeholder, and then pass it the first variable and then the second variable.
 
-### main.rs
 ```rs
 fn main() {
   let name = "Pascal";
@@ -14,7 +13,6 @@ fn main() {
 
 [00:35] We save the file and run the program using cargo run. We will see that it will output has kind of end of this.
 
-### Terminal
 ```bash
 $ cargo run
 Pascal and Alice
