@@ -1,7 +1,3 @@
-# Create a loop in Rust
-
-[Video link](https://www.egghead.io/lessons/egghead-create-a-loop-in-rust)
-
 Instructor: [00:00] **To have our program keep asking the user for entering numbers, we can use a loop**. Rust comes with several different types of loops. The simplest one is probably the `loop` loop. All we have to do is wrapping it around our code and closing it here.
 
 ```rust

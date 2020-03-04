@@ -1,7 +1,3 @@
-# Compile and run a Rust program from scratch
-
-[Video link](https://www.egghead.io/lessons/rust-compile-and-run-a-rust-program-from-scratch)
-
 Instructor: [00:00] Start by creating a file `main.rs` and create a function called main using the fn keywords, `fn main()`. This is the function that will be run when we execute our program. To output "Hello, World" we use `println!`, or print line, which takes a string. We give it "Hello, World." Then we save the file.
 
 ### main.rs

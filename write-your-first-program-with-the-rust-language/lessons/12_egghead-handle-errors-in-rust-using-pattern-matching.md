@@ -1,7 +1,3 @@
-# Handle errors in Rust using Pattern Matching
-
-[Video link](https://www.egghead.io/lessons/egghead-handle-errors-in-rust-using-pattern-matching)
-
 Instructor: [00:00] **For maximum error handling control, we can take advantage of one of Rust's language features called pattern matching**. Instead of calling `expect` or `unwrap` on a `result` type, what we can do is use the `match` keyword, then give it the expression that can return a `result` type, in our case `first.trim().parse()`.
 
 [00:23] **Then we define what we want to do in case of a `Ok` type, which gives us access to the actual value, or an `Err` type, which gives us access to the error that is being emitted from the underlying expression**. In case parse was successful, all we want to do is assign the value to our variable a, so `a = val`. In case of an error, we simply want `println!("This is not a valid number");`

@@ -1,8 +1,4 @@
-# Variables and Mutability in Rust
-
-[Video link](https://www.egghead.io/lessons/rust-variables-and-mutability-in-rust)
-
-Pascal Precht: [00:00] Variables in Rust are created using the `let` keyword. Let's create a variable name using `let name = Pascal`. To output this variable, we can use the `println!()` function. However, println! takes a string as a parameter, but since name is not a string but a variable, we have to use the placeholder syntax, which is using curly braces. Then we can pass name as a second argument to this function.
+Instructor: [00:00] Variables in Rust are created using the `let` keyword. Let's create a variable name using `let name = Pascal`. To output this variable, we can use the `println!()` function. However, println! takes a string as a parameter, but since name is not a string but a variable, we have to use the placeholder syntax, which is using curly braces. Then we can pass name as a second argument to this function.
 
 ### main.rs
 ```rs

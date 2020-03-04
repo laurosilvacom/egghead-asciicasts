@@ -1,7 +1,3 @@
-# Read user input from stdin in Rust
-
-[Video link](https://www.egghead.io/lessons/rust-read-user-input-from-stdin-in-rust)
-
 Instructor: [00:00] **Reading user input from `stdin` can be done by importing the `io` module from Rust standard library**. We then create an instance of `stdin` using the `stdin()` function. This comes with a method `read_line`. `read_line` takes a mutable reference to a string buffer.
 
 [00:20] Let's create a mutable variable name which is a string and we pass a reference to that to `read_line`. **The reason `read_line` takes a mutable reference to a string buffer is because it will use this buffer to fill in the data that is entered by the user**.

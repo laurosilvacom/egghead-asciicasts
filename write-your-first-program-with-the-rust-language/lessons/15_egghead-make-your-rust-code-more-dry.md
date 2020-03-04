@@ -1,7 +1,3 @@
-# Make your Rust code more DRY
-
-[Video link](https://www.egghead.io/lessons/egghead-make-your-rust-code-more-dry)
-
 Instructor: [00:00] To wrap it up, let's take this duplicated functionality of reading the input and parsing the value, and put it in a separate function. For that, we go ahead and create a function, `readUserInput()`, which will return a number. Then, we just take one of our input functionalities, copy it over, and make it a little bit more generic.
 
 [00:30] We don't need this _(`println!("Please enter a first number: ");`)_. Let's call this one `input` instead _(`let mut first`)_, change it here as well (inside of the read\*line method). Our variable _(`let a:u32`)_ is now going to be a digit. This is going to be input, this is going to be digit. Last but not least, we need to return the digit.

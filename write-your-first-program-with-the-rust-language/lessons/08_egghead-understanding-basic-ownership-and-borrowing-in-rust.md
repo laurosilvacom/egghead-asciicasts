@@ -1,8 +1,4 @@
-# Understanding basic Ownership and Borrowing in Rust
-
-[Video link](https://www.egghead.io/lessons/egghead-understanding-basic-ownership-and-borrowing-in-rust)
-
-Pascal Precht: [00:00] Let's have a look of this function `say_first_name()`. say_first_name() takes a first_name of type string and then outputs the name using println! And the placeholder syntax. We then call this function in our main function by passing it a variable `first_name`, which has the value "Pascal." 
+Instructor: [00:00] Let's have a look of this function `say_first_name()`. say_first_name() takes a first_name of type string and then outputs the name using println! And the placeholder syntax. We then call this function in our main function by passing it a variable `first_name`, which has the value "Pascal." 
 
 ### main.rs
 ```rs

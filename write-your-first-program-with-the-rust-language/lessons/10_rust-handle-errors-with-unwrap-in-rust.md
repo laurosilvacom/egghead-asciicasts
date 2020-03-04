@@ -1,7 +1,3 @@
-# Handle errors with unwrap() in Rust
-
-[Video link](https://www.egghead.io/lessons/rust-handle-errors-with-unwrap-in-rust)
-
 Instructor: [00:00] Let's say we have a function `sum` that takes two parameters, `a` and `b`, which are both of type number, and it simply adds those two numbers and returns them. We then want to ask the user to enter a first number and a second number. Eventually, we want to call sum with these two numbers and output the result.
 
 [00:22] We read the first and the second number using `stdin().read_line`, but since `first` and `second` are both of type string, we can't pass them to sum because sum expects numbers. Let's say we would call sum with `first` and `second`. Save the file and run the program. **We'll see that Rust won't be able to compile the program because the expected type is of `u32`, but what we've passed down was a string**.

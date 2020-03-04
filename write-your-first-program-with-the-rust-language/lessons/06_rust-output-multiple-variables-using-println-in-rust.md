@@ -1,7 +1,3 @@
-# Output multiple variables using println!() in Rust
-
-[Video link](https://www.egghead.io/lessons/rust-output-multiple-variables-using-println-in-rust)
-
 Instructor: [00:00] To output multiple variables, println! supports multiple placeholders as well. If we have variable `name` and `another_name`, we can use println!, placeholder, some string and another placeholder, and then pass it the first variable and then the second variable.
 
 ### main.rs

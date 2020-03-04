@@ -1,7 +1,3 @@
-# Install Rust
-
-[Video link](https://www.egghead.io/lessons/egghead-install-rust)
-
 Instructor: [00:00] To install Rust we head over to the Rust [website](https://www.rust-lang.org/tools/install) and then we click Install. We scroll down to this curl command here. Copy it and run it in our terminal. 
 
 ### Terminal
