@@ -6,40 +6,40 @@ Instructor: [00:00] **To have our program keep asking the user for entering numb
 
 ```rust
 fn main() {
-    loop {
-        println!("Please enter a first number: ");
+  loop {
+    println!("Please enter a first number: ");
 
-        let mut first = String::new();
-        io::stdin().read_line(&mut first).unwrap();
+    let mut first = String::new();
+    io::stdin().read_line(&mut first).unwrap();
 
-        let a:u32;
+    let a:u32;
 
-        match first.trim().parse() {
-            Ok(val) => a = val,
-            Err(_err) => {
-                println!("Not a valid number!");
-                process::exit(1);
-            }
-        };
+    match first.trim().parse() {
+      Ok(val) => a = val,
+      Err(_err) => {
+        println!("Not a valid number!");
+        process::exit(1);
+      }
+    };
 
-        println!("Please enter a second number: ");
+    println!("Please enter a second number: ");
 
-        let mut second = String::new();
-        io::stdin().read_line(&mut second).unwrap();
+    let mut second = String::new();
+    io::stdin().read_line(&mut second).unwrap();
 
-        let b:u32;
+    let b:u32;
 
-        match first.trim().parse() {
-            Ok(val) => b = val,
-            Err(_err) => {
-                println!("Not a valid number!");
-                process::exit(1);
-            }
-        };
+    match first.trim().parse() {
+      Ok(val) => b = val,
+      Err(_err) => {
+        println!("Not a valid number!");
+        process::exit(1);
+      }
+    };
 
-        let result = sum(a, b);
-        println!("{} + {} = {}", a, b, result);
-    }
+    let result = sum(a, b);
+    println!("{} + {} = {}", a, b, result);
+  }
 }
 
 ```

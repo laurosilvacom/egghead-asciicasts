@@ -10,7 +10,7 @@ Instructor: [00:00] **Reading user input from `stdin` can be done by importing t
 use std::io;
 
 fn main() {
-  println("Please enter your name: ");
+  println!("Please enter your name: ");
 
   let mut name = String::new();
 

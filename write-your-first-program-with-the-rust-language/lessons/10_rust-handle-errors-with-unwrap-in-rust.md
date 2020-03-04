@@ -56,13 +56,13 @@ fn main() {
 ```rust
 fn main() {
 
-    ...
+  ...
 
-    let a:u32 = first.trim().parse().unwrap()
+  let a:u32 = first.trim().parse().unwrap()
 
-    let b:u32 = first.trim().parse().unwrap();
+  let b:u32 = first.trim().parse().unwrap();
 
-    ...
+...
 }
 ```
 

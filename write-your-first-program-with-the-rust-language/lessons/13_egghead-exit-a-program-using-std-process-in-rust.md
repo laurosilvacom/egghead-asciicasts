@@ -12,11 +12,11 @@ use std::process;
 ...
 
 match first.trim().parse() {
-    Ok(val) => a = val,
-    Err(_err) => {
-        println!("Not a valid number!");
-        process::exit(1);
-    }
+  Ok(val) => a = val,
+  Err(_err) => {
+    println!("Not a valid number!");
+    process::exit(1);
+  }
 };
 
 ...
@@ -30,11 +30,11 @@ match first.trim().parse() {
 let a:u32;
 
 match first.trim().parse() {
-    Ok(val) => a = val,
-    Err(_err) => {
-        println!("Not a valid number!");
-        process::exit(1);
-    }
+  Ok(val) => a = val,
+  Err(_err) => {
+    println!("Not a valid number!");
+    process::exit(1);
+  }
 };
 
 ...
